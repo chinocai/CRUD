@@ -1,0 +1,91 @@
+
+.menuCSS3
+
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: .8;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+body {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+
+.btn-danger {
+  background-color: #ff4c52;
+  border-color: #ff4c52;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #FF8589;
+  border-color: #FF8589;
+  color: #fff;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+  color: #fff;
+}
+
+.btn-danger.disabled, .btn-danger:disabled {
+  background-color: #FFDBDC;
+  border-color: #FFDBDC;
+  opacity: 0.5;
+}
+
+.btn-danger:active, .btn-danger.active,
+.show > .btn-danger.dropdown-toggle {
+  background-color: #FF8589 !important;
+  border-color: #FF8589 !important;
+  color: #fff !important;
+}
+
+caja_clases{
+
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
